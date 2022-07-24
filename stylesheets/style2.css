@@ -1,0 +1,200 @@
+body {
+  background: rgb(250, 248, 248);
+  height: fit-content;
+  background-color: #343a40;
+  width: 100%;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", "Lato";
+  font-weight: 300;
+  font-size: 14px;
+  overflow-x: hidden;
+ 
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover,
+a:active {
+  letter-spacing: 5px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(Frame1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.Hero-text {
+  z-index: 100;
+  position: absolute;
+  width: max-content;
+  margin-top: 350px;
+  margin-left: 100px;
+}
+.Hero-text h3 {
+  font-family: "Sacramento";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 124px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+h6{
+  color: #fff;
+  overflow-y: hidden;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+.sublock {
+  flex: auto;
+  margin: 40px;
+  max-width: 50%;
+}
+.sublock p{
+  font-size: 20px;
+}
+
+p {
+  overflow-y: hidden;
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: auto;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: left;
+}
+.vision>p{
+  line-height: 30px;
+}
+
+.vis {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #fff;
+}
+
+.ions {
+  margin: 40px;
+  font-family: "Quicksand";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imag {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .block {
+    flex-direction: column;
+  }
+  .sublock{
+    max-width: 100%;
+  }
+  .sublock>p {
+    font-size: 15px;
+  }
+  .Hero-text {
+    margin-left: 10px;
+  }
+  .Hero-text> h3 {
+    font-family: "Sacramento";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 124px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
+  .ions {
+    margin: 14px;
+    font-family: "Quicksand";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .vis {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+  }
+  .images {
+    width: 90%;
+    margin-right: 40px;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .block {
+    flex-direction:column; 
+  }
+  .ions {
+    margin: 20px;
+    font-family: "Quicksand";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 300;
+  }
+  .upper-para>p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .sublock {
+    margin: 10px;
+  }
+
+  .vis {
+    font-size: 15px;
+  }
+
+  .card {
+    margin: 10px;
+    width: 90%;
+    overflow: hidden;
+  }
+  .proj {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,235 @@
+body{
+    background :rgb(250, 248, 248);
+    height:fit-content;
+    background-color: #2E3739;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', 'Lato';
+    font-weight: 300;
+}
+
+a:link,a:visited{
+    color:#fff;
+    text-decoration:none;
+    transition: 0.3s;
+}
+
+a:hover,a:active{
+    letter-spacing: 5px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.514),rgba(0, 0, 0, 0.514)),  url(p19.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.Hero-text{
+    z-index: 1000;
+    position:absolute;
+    width: max-content;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+.Hero-text h3{
+   
+    font-family:'Sacramento';
+    font-size: 85px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 124px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+.block{
+    display: flex;
+}
+.sublock{
+    margin: 60px;
+    margin-right: 0px;
+}
+p{
+    overflow-y: hidden;
+    font-family:'Quicksand';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: auto;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-align: left;
+
+}
+
+.images{
+   
+    margin-right: 40px;
+}
+
+.proj{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    text-align:left;
+    color: #fff;
+}
+.proj h2{
+    color:#fff;
+    font-weight: 500;
+}
+.project{
+    margin:20%;
+
+}
+.proj p{
+    font-size: large;
+}
+.proj p b{
+    font-weight: 500;
+}
+.on-projects{
+    margin:50px;
+}
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 5px;
+    border: black solid;
+    width:30%;
+    overflow: hidden;
+    
+}
+.card img{
+    width: 100%;
+
+    margin-bottom: 0px;
+}
+.proj-title{
+    padding: 0px 10px;
+    background-color: white;
+    overflow: hidden;
+  
+}
+.proj-img{
+    transform-origin: 50% 65%;
+  transition: transform 1s, filter 1s ease-in-out;
+  filter: brightness(90%);
+ 
+}
+.proj-img:hover{
+    filter: brightness(100%);
+    transform: scale(1.05);
+  
+}
+.proj-title h4{
+
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}
+.proj-title p{
+    font-size:small;
+    font-weight: 400;
+    color: black;
+
+}
+h6{
+    overflow-y: hidden;
+    color: #fff;
+}
+
+.row-1 .card .proj-img img{
+    height:350px ;
+}
+
+.imag{
+     text-align: center;
+ }
+ @media (max-width:991px){
+    .sublock p{
+        font-size: 15px;
+    }
+    .Hero-text{
+        margin-left: 10px;
+    }
+    .Hero-text h3{
+        font-family:'Sacramento';
+        font-size:30px;
+        font-style: normal;
+        font-weight:normal;
+        line-height: 124px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+    .vis{
+        text-align: center;
+        font-size: 30px;
+        margin: 20px;
+    }
+    .proj p{
+        font-size: small;
+    }
+    .card{
+        margin:5px;
+        width:40%;
+        overflow: hidden;
+        
+    }
+}
+
+@media (max-width:500px){
+    .proj p{
+        font-size: smaller;
+    }
+    .upper-para p
+    {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sublock2 p
+    {
+        font-size: 15px;
+    }
+
+    .card{
+        margin: 2px;
+        width:100%;
+        overflow: hidden;
+        
+    }
+    .proj{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+}
+.photo-gallery {
+    color:#313437;
+  }
+  
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
